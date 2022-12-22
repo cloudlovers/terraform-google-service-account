@@ -16,13 +16,6 @@ variable "name" {
   description = "The fully-qualified name of the service account."
 }
 
-variable "gcp_credentials" {
-  type        = string
-  default     = ""
-  sensitive   = true
-  description = "Google Cloud service account credentials"
-}
-
 variable "gcp_project_id" {
   type        = string
   default     = "my_project_id"
